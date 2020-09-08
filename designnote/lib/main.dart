@@ -1,14 +1,29 @@
+import 'package:designnote/views/note_list.dart';
 import 'package:flutter/material.dart';
+import 'package:designnote/views/note_list.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(App());
 }
 
+class App extends StatelessWidget{
+  @override 
+  Widget build(BuildContext context){
+    return MaterialApp(
+      title: 'Notes',
+      home: NoteList(),
+    );
+  }
+}
+
+/*
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+       
+      
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -26,8 +41,9 @@ class MyApp extends StatelessWidget {
         // the app on. For desktop platforms, the controls will be smaller and
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
-      home: MyHomePage(title: 'Design Note'),
+        
+      ), */
+      //home: MyHomePage(title: 'Design Note'),
     );
   }
 }
