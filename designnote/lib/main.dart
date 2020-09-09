@@ -1,4 +1,3 @@
-import 'package:designnote/views/note_list.dart';
 import 'package:flutter/material.dart';
 import 'package:designnote/views/note_list.dart';
 
@@ -42,11 +41,11 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
         
-      ), */
+      ), 
       //home: MyHomePage(title: 'Design Note'),
     );
   }
-}
+}*/
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
