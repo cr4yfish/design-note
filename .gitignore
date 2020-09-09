@@ -1,4 +1,7 @@
-# Built application files
+#.vscode
+.vscode/launch.json
+
+ Built application files
 *.apk
 *.aar
 *.ap_
